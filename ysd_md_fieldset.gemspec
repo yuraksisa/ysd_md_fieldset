@@ -7,5 +7,4 @@ Gem::Specification.new do |s|
   s.files   = Dir['lib/**/*.rb']
   s.summary = "Yurak Sisa FieldSet extensions"
   
-  s.add_runtime_dependency "ysd-persistence"
 end
