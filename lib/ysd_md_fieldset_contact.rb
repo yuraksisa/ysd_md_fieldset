@@ -1,8 +1,11 @@
-#
-# It represents Contact information attached to a model
-#
+require 'ysd-plugins' unless defined?Plugins::ModelAspect
+
 module FieldSet
+   #
+   # It represents Contact information attached to a model  
+   #
    module Contact
+     include ::Plugins::ModelAspect
 
      def self.included(model)
         model.property :contact_website, String, :field => 'contact_website', :length => 50

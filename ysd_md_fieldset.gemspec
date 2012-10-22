@@ -7,5 +7,7 @@ Gem::Specification.new do |s|
   s.files   = Dir['lib/**/*.rb']
   s.summary = "Yurak Sisa FieldSet extensions"
   s.homepage = "http://github.com/yuraksisa/ysd_md_fieldset"
+
+  s.add_runtime_dependency "ysd_core_plugins"       # Aspects
     
 end
